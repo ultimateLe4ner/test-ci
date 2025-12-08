@@ -10,7 +10,7 @@ def test_output_something():
     sys.stdout = captured_output
     
     # Execute the script
-    exec(open('/home/runner/work/test-ci/test-ci/output_something.py').read())
+    exec(open('output_something.py').read())
     
     # Restore stdout
     sys.stdout = sys.__stdout__
